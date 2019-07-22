@@ -54,6 +54,7 @@ class VcConst{
     primaryIconTheme: new IconThemeData(color: Colors.black),
     accentIconTheme: new IconThemeData(color: Colors.purple[700]),
     disabledColor: Colors.grey[500],
+    fontFamily: "myriad_pro"
   );
 
   static final ThemeData _darkTheme = new ThemeData(
@@ -69,6 +70,7 @@ class VcConst{
     cardColor: Color.fromRGBO(55, 55, 55, 1.0),
     dividerColor: Color.fromRGBO(60, 60, 60, 1.0),
     bottomAppBarColor: Colors.black26,
+    fontFamily: "myriad_pro"
   );
 
   static final List<ThemeData> _listThemes=[
